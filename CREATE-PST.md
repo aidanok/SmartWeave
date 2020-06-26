@@ -14,7 +14,7 @@ First, copy and edit the example init state Json from `examples/token-pst.json`
 
 Then simply run the following command to deploy a new contract instance:
 
-`node smartweave-cli --key-file /path/to/keyfile.json --create --contract-src-tx Wa3kRcY8u9CMtoVaG4L0OTkHqZXw35uMU-qFG_k4jzI --init-state my-pst-token.json`
+`node smartweave-cli --key-file /path/to/keyfile.json --create --contract-src-tx ff8wOKWGIS6xKlhA8U6t70ydZOozixF5jQMp4yjoTc8 --init-state my-pst-token.json`
 
 You will get back a transaction id, this is your Contract Id, and you don't need to keep around the .json file that initialized it. Once the transaction is mined, (it may take a few minutes), you can check the state of your PST token with the following command:
 
